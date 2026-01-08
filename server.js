@@ -4,9 +4,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // CONFIGURAÇÃO (Substitua depois!)
-const CLIENT_ID = process.env.CLIENT_ID || 'SEU_CLIENT_ID_AQUI';
+const CLIENT_ID = process.env.CLIENT_ID || '1458610656595935493';
 const CLIENT_SECRET = process.env.CLIENT_SECRET; // Vem da Vertra Cloud
-const REDIRECT_URI = process.env.REDIRECT_URI || 'SEU_REDIRECT_URI_AQUI';
+const REDIRECT_URI = process.env.REDIRECT_URI || 'https://site-virid-nine.vercel.app/';
 const BOT_TOKEN = process.env.BOT_TOKEN; // Vem da Vertra Cloud
 const DISCORD_API = 'https://discord.com/api/v10';
 
